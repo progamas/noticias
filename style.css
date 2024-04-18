@@ -32,30 +32,30 @@ body {
    background: none;
 }
 
-.primeira-seçao {
+.primeira-secao{
    margin-bottom: 4rem;
 }
 
-.primeira-seçao img {
+.primeira-secao img {
    width: 100%;
    margin-bottom: 1.5rem;
 }
 
-.primeira-seçao h1 {
+.primeira-secao h1 {
    font-size: 2.5rem;
    line-height: 100%;
    color: var(--dark-blue);
    margin-bottom: 1rem;
 }
 
-.primeira-seçao p {
+.primeira-secao p {
    font-size: 0.9375rem;
    line-height: 1.625rem;
    color: var(--gunmetal);
    margin-bottom: 1.5rem;
 }
 
-.primeira-seçao button {
+.primeira-secao button {
    padding: 0.75rem 2rem;
    background-color: var(--vermillion);
    border: none;
@@ -66,7 +66,7 @@ body {
    letter-spacing: 0.275rem;
    line-height: 1.5rem;
 }
-.segunda-seçao{
+.segunda-secao{
    background-color: var(--dark-blue);
    margin-bottom: 4rem;
    padding: 1.5rem 1.1;
@@ -79,13 +79,13 @@ body {
 }
 
 
-.segunda-seçao h2{
+.segunda-secao h2{
    color: var(--yellow);
    font-size: 2rem;
    line-height: 100%;
    margin-bottom: 2.2rem;
    }
-.segunda-seçao h3{
+.segunda-secao h3{
       color: var(--almost-white);
       font-size: 1.25rem;
       line-height: 1.5rem;
@@ -93,9 +93,39 @@ body {
       margin-bottom: 0.5rem;
    }
    
-.segunda-seçao p {
+.segunda-secao p {
    color: var(--silver);
    font-size: 0.9375rem;
    line-height: 1.625rem;
 
+}
+
+.terceira-secao > div {
+   display: flex;
+   align-items: center;
+   gap: 1.5rem;
+   margin-bottom: 2rem;
+   }
+
+.terceira-secao img{
+   max-width: 6.25rem;
+}
+.terceira-secao strong {
+   color: var(--silver);
+   font-size: 2rem;
+   line-height: 100%;
+}
+
+.terceira-secao h2 {
+   color: var(--dark-blue);
+   font-size: 1.125rem;
+   font-weight: 800;
+   line-height: 1.5rem;
+   margin-block: 0.6rem;
+}
+
+.terceira-secao p {
+   font-size: 0.9375rem;
+   line-height: 1.625rem;
+   color: var(--gunmetal);
 }
